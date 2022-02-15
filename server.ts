@@ -1,12 +1,9 @@
-// Importing module
 import express from 'express'
   
 const app = express()
-const PORT:Number=3000
   
-// Handling GET / Request
 app.get('/', (req, res) => {
-    res.send('Welcome to typescript backend!')
+    res.send('Teste')
 })
 
-app.listen(PORT, () => console.log('Server is running!'))
+app.listen(3000, () => console.log('Server is running!'))
